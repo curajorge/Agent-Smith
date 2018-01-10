@@ -23,5 +23,7 @@ class Bluffer(Player):
 			else:
 				return betting.FOLD
 
+
+
 	def __str__(self):
 		return 'Bluffer(bluff=%f)' % (self.bluff)

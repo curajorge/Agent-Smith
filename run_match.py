@@ -4,10 +4,10 @@ from random import Random
 rng         = Random()
 rng.seed(31337)  # each seed corresponds to a different set of hands
 
-num_hands   = 3000
-the_players = [players.Chump(0.99, 0.01, 0.0), 
+num_hands   = 1000
+the_players = [players.Agent(0.1),
     players.Chump(0.99, 0.01, 0.0), 
-    players.Bluffer(0.2) ]
+    players.Bluffer(0.1) ]
 
 total = [0, 0, 0]
 for hand in range(num_hands):

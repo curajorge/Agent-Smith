@@ -3,7 +3,7 @@ import kuhn3p.betting, kuhn3p.deck, kuhn3p.Player
 
 import kuhn3p.players.Chump
 
-player  = kuhn3p.players.Chump(1, 1, 1)
+player  = kuhn3p.players.Agent(0.1)
 address = sys.argv[1]
 port    = int(sys.argv[2])
 
